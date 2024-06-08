@@ -22,5 +22,4 @@ void setup_joy(){
 }
 
 void process_joy(){
-    
 }
