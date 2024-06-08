@@ -20,3 +20,7 @@ void setup_joy(){
         Serial.println("I2C Error!\r\n");
     }
 }
+
+void process_joy(){
+    
+}

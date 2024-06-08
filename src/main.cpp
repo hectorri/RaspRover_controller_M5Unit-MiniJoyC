@@ -9,5 +9,7 @@ void setup() {
 }
 
 void loop() {
-    m5_update();
+    process_m5();
+    process_joy();
+    process_display();
 }
