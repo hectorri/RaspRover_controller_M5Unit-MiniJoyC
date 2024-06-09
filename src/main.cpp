@@ -1,6 +1,6 @@
-#include <m5.cpp>
-#include <display.cpp>
-#include <joy.cpp>
+#include <m5.h>
+#include <display.h>
+#include <joy.h>
 
 void setup() {
     setup_M5();
@@ -11,5 +11,5 @@ void setup() {
 void loop() {
     process_m5();
     process_joy();
-    process_display();
+    process_display(get_x_axis_joy(), get_y_axis_joy(), get_battery_percentage());
 }
